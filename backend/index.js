@@ -28,6 +28,7 @@ const corsOptions = {
     "http://localhost:3000",
     "https://rack-store-frontend.vercel.app",
     "https://rack-store-backend.vercel.app",
+    "https://direct2-retail.vercel.app",
   ],
   methods: ["POST", "GET", "PUT", "DELETE"],
   credentials: true,
