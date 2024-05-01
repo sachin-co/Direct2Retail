@@ -75,9 +75,9 @@ const ChatSupport = ({ userType }) => {
     setWs(ws);
     ws.addEventListener("message", handleMessage);
 
-    return () => {
-      ws.close();
-    };
+    // return () => {
+    //   ws.close();
+    // };
   }, [message]);
 
   async function handleMessage(event) {
