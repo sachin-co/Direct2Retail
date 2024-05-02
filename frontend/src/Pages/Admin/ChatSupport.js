@@ -70,14 +70,14 @@ const ChatSupport = ({ userType }) => {
   }, [API_URL, message, ws]);
 
   useEffect(() => {
-    const ws = new WebSocket(`wss://${process.env.REACT_APP_WEBSOCKET_URL}`);
+    const ws = new WebSocket(`ws://${process.env.REACT_APP_WEBSOCKET_URL}`);
 
     setWs(ws);
     ws.addEventListener("message", handleMessage);
 
-    // return () => {
-    //   ws.close();
-    // };
+    return () => {
+      ws.close();
+    };
   }, [message]);
 
   async function handleMessage(event) {
