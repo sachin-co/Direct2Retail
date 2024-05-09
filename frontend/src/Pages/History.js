@@ -50,7 +50,7 @@ const History = () => {
 
   return (
     <div className={styles.order_list}>
-      <h2 className='flex justify-center items-center ml-0'>Purchase History</h2>
+      <h2 className='flex justify-center items-center ml-0'>Booking History</h2>
       {historyData.map((order) => (
         <div className={styles.order_card} key={order._id}>
           {order.cartItems.map((item, index) => (

@@ -225,7 +225,7 @@ const Home = () => {
                         Details
                       </button>
                       <button onClick={() => handleAddToCart(product._id)}>
-                        Purchase Rack
+                        Book Rack
                       </button>
                     </>
                   )}
