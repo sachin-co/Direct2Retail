@@ -1,7 +1,8 @@
-**Rack Rentals for Retail Stores**
+**Direct-to-Retail for Retail Stores**
 
 **Overview**
-Rack Rentals for Retail Stores is a web application designed to facilitate the direct rental and management of retail rack space for businesses looking to display and sell their products in physical stores. Our platform connects retail store owners with companies seeking temporary or permanent space to showcase their products, enabling a streamlined and efficient rental process.
+
+Direct-to-Retail for Retail Stores is a web application designed to facilitate the direct rental and management of retail rack space for businesses looking to display and sell their products in physical stores. Our platform connects retail store owners with companies seeking temporary or permanent space to showcase their products, enabling a streamlined and efficient rental process.
 
 ## Features
 
